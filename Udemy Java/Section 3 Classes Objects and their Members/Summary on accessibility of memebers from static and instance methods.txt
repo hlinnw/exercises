@@ -1,0 +1,14 @@
+Summary on Accessibility of Members from Static & Instance Methods
+In the last lecture, we discussed about which class members (variables or methods) can be accessed from static & instance methods. Just to be completely clear, here is a summary of that same information.
+
+a) Accessibility from Static Methods:
+
+Cannot directly access instance variables/methods defined in the same class as the static method
+
+Can directly access static variables/methods defined in the same class
+
+Can access anything via an object reference. So, from a static method by using an object reference, we can access instance variables/methods
+
+b) Accessibility from Instance Methods:
+
+Can access anything from an instance method. So, we can even access static variables/methods defined in the same class as the instance method.

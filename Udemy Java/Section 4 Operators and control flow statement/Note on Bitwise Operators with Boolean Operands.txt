@@ -1,0 +1,6 @@
+Quick Note on Bitwise Operators with Boolean Operands
+In the last lecture, we mainly discussed about bitwise operators applied on integer primitives as they are most commonly used as operands. We said bitwise operators with boolean operands is very rare and did not discuss it. However, there are couple of things I wanted to highlight about applying bitwise on boolean operands:
+
+(1) Among bitwise, &, |, and ^ can be used with boolean operands. Bitwise NOT (~) will not even compile with boolean. If we need such a behavior, then we would use logical NOT (!) operator.
+
+(2) Also, strictly speaking to be consistent with the Java Language Specification (JLS), &, | and ^ when applied on boolean operands are referred to as logical operators and not bitwise. In other words, the operators &, |, ^, ~ are referred to as bitwise ONLY when they are applied on integer operands and this is the common scenario as we discussed. Also note that, as we discussed && and || are also logical operators, but recall that they have the short-circuit property due to which JLS refers to them as conditional AND and condition OR respectively. With & and |, as discussed in the lecture, they do not have the short-circuit property, i.e., they always force JVM to evaluate both operands.

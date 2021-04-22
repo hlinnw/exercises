@@ -1,0 +1,16 @@
+Additional Notes on Ternary Operator
+Here is some additional notes on Ternary:
+
+1.  true & false in a ternary operation cannot be an invocation to a method with void as return type. Recall that the value that true/false expression evaluates to would be assigned to some variable like in the below syntax.
+
+result = (boolean-expression) ? true-expression : false-expression;
+
+2. Mixed-Type Operation Rule: You may recall the following mixed-type operation rule that we discussed as part of Arithmetic Operation Rules lecture. This rule applies for Ternary operator too. Below is an example:
+
+If operands belong to different types, then smaller type is promoted to larger type.
+
+Example:
+
+float result = true ? 25 : 65.5f;
+
+result will be 25.0f as int literal 25 will be promoted to float as the false expression 65.5f is of the larger type float.
