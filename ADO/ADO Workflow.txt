@@ -1,0 +1,9 @@
+- Receive a task
+- Find the Repo connected with task in ADO. If repo is not availabe, create one in ADO.
+- Find the trunk branch in the Repo in ADO
+- Create a new feature branch based on the trunk branch in ADO
+- Clone the repo from ADO to local
+- In local repository, use tortoise to Switch and Check out a new feature branch which matches the feature branch in ADO
+- Change code
+- Commit locally and push to ADO
+- Create a pull request in ADO to merge the feature branch to trunck branch

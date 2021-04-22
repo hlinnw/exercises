@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- head is mostly meant for search engines-->
+    <!--meta is where info about the document is store: character encoding, name,description-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- this <title> tag is where we insert the page name as it will appear at the top of the brower window-->
+    <title>Document</title>
+  </head>
+  <!-- body is the where the content of the page goes-->
+  <!--body includes text, images,tables,forms and everthing we see on the internet -->
+  <!-- <h1> ... <h6> are headings-->
+  <!-- <nav>  a new element that makes it much easier to create a navigation menu. It creates a neat, horizontal menu of text links-->
+
+  <nav>Home</nav>
+  <nav>About</nav>
+  <nav>Service</nav>
+  <nav>contact</nav>
+  <!-- Each <section> typically includes one or more heading elements and additional elements presenting related content.-->
+  <section>
+    <h1>JS OOP</h1>
+    <!--<main> tag is used to denote the content of a webpage that relates to the central topic of that page or application. It should include content that is unique to that page-->
+    <!--The <main> element can only be used once in each HTML file. It is followed by a closing tag, </main>, which should be placed at the end of the content. Both tags must be used outside other structural elements such as <head> and its closing tag, and <footer> and its closing tag. They cannot overlap them, or sit within them.-->
+
+    <!--<article> element represents a section of content that forms an independent part of a document or site; for example, a magazine or newspaper article, or a blog entry-->
+
+    <!-- using element tag<p> to add text to html page-->
+    <p>
+      Welcome to
+      <em>this brand new </em>webiste. Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Omnis nulla sapiente, voluptatum magnam perferendis
+      minima voluptas temporibus alias sequi praesentium.
+    </p>
+
+    <!--links are included in an attribute of <a> tag-->
+    <a href="https://blogging.com/how-to-start-a-blog/"
+      >the attribute contains the text which will be displayed to a visitor in
+      order to entice them to click on that link
+    </a>
+    <!-- link a link in another html file in the same folder-->
+    <a href="/page2.html">Page2 Link</a>
+
+    <!-- add image to html-->
+    <img
+      src="https://s3.amazonaws.com/lht-prod/events/main_images/000/000/142/original/Basket_Planter.png?1615562226"
+      a
+      flower
+      photo
+      from
+      lowes
+      width="200"
+    />
+  </section>
+  <!--make an html list, ol: order list. Inside <ol> tag we list each item inside <li> tag -->
+  <ol>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+  </ol>
+  <!-- unorder list. This is known as a bullet point list and contains no numbers-->
+  <ul>
+    <li>Step 1</li>
+    <li>Step 2</li>
+    <li>Step 3</li>
+  </ul>
+  <!-- <dl> definition list-->
+  <dl>
+    <dt>Item</dt>
+    <dd>The definition goes here</dd>
+  </dl>
+
+  <!-- create a table using <tr> table rows and <td> cells -->
+  <table>
+    <tr>
+      <td>Row 1 - Column1</td>
+      <td>Row 1 - Column2</td>
+      <td>Row 1 - Column3</td>
+    </tr>
+  </table>
+  <body>
+    <title>Document</title>
+    <script src="script.js"></script>
+  </body>
+  <!-- The <footer> element is a structural element used to identify the footer of a page, document, article, or section. A <footer> typically contains copyright and authorship information or navigational elements pertaining to the contents of the parent element.-->
+  <footer>Copyright 2021</footer>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="Styles/styles.css" rel="stylesheet"/>
+    <title>Quad Shop</title>
+    </head>
+
+  <body>
+      
+      <header>
+          <h1 style="color:blue;">Welcome To My Quad Shop</h1>
+      </header>
+      <form>
+    <label for="select">Select menu: </label>
+    <select id="menulist">
+        <option value="Please select">Please Select</option>
+        <option id = "sand" value="sandwich">Sandwich</option>
+        <option id = "sal" value="salad">Salad</option>
+        <option id = "platt" value="platter">Platter</option>
+        <option id = "end" value="quit">Quit</option>
+    </select>
+    <div id = 'input'></div>
+    <div>
+        <label>How many do you want to buy: </label>
+        <input id = "count" type ="text"/>
+    </div>
+    <div>
+        <button id="btn" onclick="random();">Generate Report</button>
+    </div>
+    </form>
+    <!-- Thanks a lot to Willy Aguirre for his help with the code for this assessment -->
+    </body>
+    
+    <script src = "Script/main.js"></script>
+</html>
